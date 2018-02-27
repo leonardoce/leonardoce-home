@@ -1,0 +1,26 @@
+# Site settings
+title:          Leonardo Cecchi - Home page
+description:    "Minimal Jekyll theme for storytellers"
+url:            "https://chesterhow.github.io"
+
+# Author
+author:
+  name:         Leonardo Cecchi
+  url:          https://leonardoce.github.io
+  email:        leonardo.cecchi@gmail.com 
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
