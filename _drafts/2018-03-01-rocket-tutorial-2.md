@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rust & Racket Tutorial, the URL path
+title: Rust & Rocket Tutorial, the URL path
 ---
 
 In the [previous tutorial]({% post_url 2018-02-27-rocket-tutorial-1 %}) we

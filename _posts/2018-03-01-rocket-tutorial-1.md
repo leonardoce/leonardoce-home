@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rust & Racket Tutorial, getting started
+title: Rust & Rocket Tutorial, getting started
 ---
 
 Starting from today, I'm writing a series of posts composing a basic tutorial
@@ -10,7 +10,7 @@ I just discovered the [Rocket](https://rocket.rs) web framework, and I would
 like to share with you my experience with it.
 
 Let's start with the prerequisites. As you can find in the [getting
-started](https://rocket.rs/guide/getting-started/) page of the Racket web site,
+started](https://rocket.rs/guide/getting-started/) page of the Rocket web site,
 you will need to install the nightly Rust toolchain. The best way to do that is
 to use [RustUp](http://rustup.rs/). If your computer is running Linux, like
 mine is, you can install rustup simply with the following command:
@@ -71,7 +71,7 @@ $ sudo apt install -y build-essential
 
 Please consult the documentation of your distro of choice to get help.
 
-We are now ready to create our first application with Racket, using the one
+We are now ready to create our first application with Rocket, using the one
 from the [getting started](https://rocket.rs/guide/getting-started/) page.
 
 Let's create a folder for our application:
