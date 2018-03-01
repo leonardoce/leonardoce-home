@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rust & Racket Tutorial, Part 1
+title: Rust & Racket Tutorial, getting started
 ---
 
 Starting from today, I'm writing a series of posts composing a basic tutorial
