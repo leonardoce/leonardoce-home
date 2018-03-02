@@ -24,3 +24,6 @@ plugins:
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
+
+google:
+  validation: j6BWRL6P_DB3GO3kYbcX-SbGs9vfnCNDCtY90HZVdfE
