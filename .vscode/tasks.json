@@ -6,7 +6,7 @@
         {
             "label": "Jekyll Server",
             "type": "shell",
-            "command": "bundle exec jekyll serve"
+            "command": "bundle exec jekyll serve --drafts"
         },
         {
             "label": "Jekyll Build",

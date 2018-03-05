@@ -1,7 +1,7 @@
 # Site settings
 title:          Leonardo Cecchi - Home page
 description:    "Minimal Jekyll theme for storytellers"
-url:            "https://chesterhow.github.io"
+url:            "https://leonardoce.github.io"
 
 # Author
 author:
@@ -20,10 +20,11 @@ sass:
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
 
 google:
-  validation: j6BWRL6P_DB3GO3kYbcX-SbGs9vfnCNDCtY90HZVdfE
+  validation: -rQjC_ulGkBpacHUQBj4gXSHERAgAAzozRZVbRfQgmU

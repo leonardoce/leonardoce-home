@@ -3,7 +3,7 @@ layout: post
 title: Rust & Rocket Tutorial, the URL path
 ---
 
-In the [previous tutorial]({% post_url 2018-02-27-rocket-tutorial-1 %}) we
+In the [previous tutorial]({% post_url 2018-03-01-rocket-tutorial-1 %}) we
 created a working development environment and compiled the Rocket.Rs getting
 started example.
 
