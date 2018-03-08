@@ -106,3 +106,18 @@ $ curl http://localhost:8000/hello/leonardo/thirtysevel
 
 The URLs are type safe, and a wrong age can't be passed to this route, simply
 because it can't be applied.
+
+We can also write a *catch-all* route and use that to serve files from the file
+system:
+
+```rust
+#[get("/static/<file..>")]
+fn files(file: PathBuf) -> Option<NamedFile> {
+    NamedFile::open(Path::new("static/").join(file)).ok()
+}
+```
+
+With the previous rule, a request like `http://localhost:8000/static/test.css`
+will be served loading a file named `static/test.css`. We will use this
+strategy to serve the static assect of the web application we will build in our
+tutorial.

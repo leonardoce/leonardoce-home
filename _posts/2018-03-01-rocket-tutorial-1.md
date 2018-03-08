@@ -144,4 +144,5 @@ $ cargo run
 Great! You can use your browser to test the getting started application. Now
 your development environment is correctly set up.
 
-In the next post we will work on the getting started application. Thanks!
+In the [next post]({% post_url 2018-03-08-rocket-tutorial-2 %}) we will work on
+the getting started application. Thanks!
