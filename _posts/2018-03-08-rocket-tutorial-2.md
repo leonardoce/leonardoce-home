@@ -121,3 +121,6 @@ With the previous rule, a request like `http://localhost:8000/static/test.css`
 will be served loading a file named `static/test.css`. We will use this
 strategy to serve the static assect of the web application we will build in our
 tutorial.
+
+In the [next post]({% post_url 2018-03-15-rocket-tutorial-3 %}) we will
+introduce the template engine.

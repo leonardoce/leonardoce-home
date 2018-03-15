@@ -3,11 +3,11 @@ layout: post
 title: Rust & Rocket Tutorial, the tera template engine
 ---
 
-In the [previous tutorial](TODO) we
+In the [previous tutorial]({% post_url 2018-03-08-rocket-tutorial-2 %}) we
 discussed how to route a request to the correct handler using the URL, and now
 we will discuss how to create a response using a template.
 
-[Rocket.rs](https://rocket.rs), in this moment, have already integrated two
+[Rocket.rs](https://rocket.rs), now, have already integrated two
 template engine: [tera](https://github.com/Keats/tera) and
 [handlebars](https://github.com/sunng87/handlebars-rust).
 
