@@ -141,3 +141,6 @@ fn main() {
         .launch();
 }
 ```
+
+The [next post]({% post_url 2018-03-22-rocket-tutorial-4 %}) is about how to
+use a SQLite database.

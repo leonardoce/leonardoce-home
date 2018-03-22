@@ -3,8 +3,9 @@ layout: post
 title: Rust & Rocket Tutorial, how to use SQLite
 ---
 
-In this post we will introduce structs and we will use them to load and store
-records from the database.
+In the [previous post]({% post_url 2018-03-15-rocket-tutorial-3 %}) we
+introduced the tera template engine. In this post we will introduce structs and
+we will use them to load and store records from the database.
 
 Let's suppose we want to create a simple blog: we will need at least a table
 for authors and a table for posts.
@@ -152,9 +153,15 @@ reference.
 The second parameter is `sql: &str`, and `&str` is a non mutable reference to
 a string.
 
-The third parameter is `params: &[&ToSql]`
+The third parameter is `params: &[&ToSql]` and contains the arguments that must
+be substituted in the query. We use this parameter to get an author given the
+ID.
 
-## TODO
+The fourh parameter is a function and is used to transform the database row in
+an instance of the `Author` struct.
 
 `FnOnce` means a function, in our case of type `&Row`, returning a result of
-type `T`.
+type `T`. There are several types of function types, for more information you
+can read the [closure
+chapter](https://doc.rust-lang.org/book/second-edition/ch13-01-closures.html)
+of the [Rust Book](https://doc.rust-lang.org/book/second-edition/).
